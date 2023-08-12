@@ -1,0 +1,538 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.124.2600466356.2023</identifier>
+    <sender>cap-pac@canada.ca</sender>
+    <sent>2023-08-10T21:39:06-00:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <source>Env. Can. - Can. Met. Ctr. – Montréal</source>
+    <scope>Public</scope>
+    <code>profile:CAP-CP:0.4</code>
+    <code>layer:SOREM:1.0</code>
+    <code>layer:EC-MSC-SMC:1.0</code>
+    <code>layer:EC-MSC-SMC:1.1</code>
+    <code>layer:SOREM:2.0</code>
+    <note>Service Notice - February 2023: The Environment and Climate Change Canada (ECCC) CAP Service undergoes changes from time to time as the business of alerting evolves. For 2023, changes will include... 1) modifications, or even removal, of the Wireless Public Alerting Message (WPAM) layer due to the successful pilot of the UpdateX feature recently deployed in the Canadian Cell Broadcasting Environment, and 2) other minor improvements and corrections. For more information on these changes, you are invited to subscribe to the following mailing list: http://lists.cmc.ec.gc.ca/mailman/listinfo/dd_info | Notification de service - février 2023: Le service du PAC d’Environnement et Changement climatique Canada (ECCC) subit périodiquement des changements et ajouts à mesure que le système d’alerte évolue. Pour 2023, ces changements incluent... 1) des modifications, voire la suppression, de la couche du Service d’alertes sans fil au public (WPAM) en raison du succès du projet pilote de la fonctionnalité UpdateX récemment déployée dans l’environnement de diffusion sans fil canadien, et 2) d’autres améliorations et corrections mineures. Pour plus d’informations sur ces changements, vous êtes invités à vous inscrire à la liste de diffusion suivante: http://lists.cmc.ec.gc.ca/mailman/listinfo/dd_info</note>
+    <references>cap-pac@canada.ca,urn:oid:2.49.0.1.124.3492826257.2023,2023-08-10T14:07:24-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2465983690.2023,2023-08-10T17:09:02-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0415428376.2023,2023-08-10T18:51:20-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3109440944.2023,2023-08-10T20:21:47-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.0655614307.2023,2023-08-10T21:07:19-00:00</references>
+    <info>
+        <language>en-CA</language>
+        <category>Met</category>
+        <event>squall</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>squall</value>
+        </eventCode>
+        <effective>2023-08-10T21:39:06-00:00</effective>
+        <expires>2023-08-11T00:59:32-00:00</expires>
+        <senderName>Environment Canada</senderName>
+        <headline>squall watch in effect</headline>
+        <description>
+Conditions are favourable for the development of squalls with wind gusts up to 40 knots.
+
+A few scattered thunderstorms will come to an end early this evening. Small hail may accompany some of these storms.
+
+###
+
+Please continue to monitor alerts and forecasts issued by Environment Canada. For more information monitor Canadian Coast Guard radio or Weatheradio stations.
+</description>
+        <instruction>
+Mariners are advised to prepare for potential squalls. Vulnerable vessels are most at risk and should seek safe harbour if underway.
+</instruction>
+        <web>http://weather.gc.ca/marine/index_e.html</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20230810213532812/WH_13_73_CWTO/SQV/140423893192319053202308100503_WH_13_73_CWTO/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:8094 M:44603 C:54089</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>squall watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Canadian portion of the Great Lakes and the Ontario portion of the St. Lawrence River</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WH_13_73_CWTO</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value/>
+        </parameter>
+        <area>
+            <areaDesc>Lake St. Clair</areaDesc>
+            <polygon>42.5527,-82.5993 42.5558,-82.5959 42.574,-82.5753 42.5798,-82.5688 42.5947,-82.5519 42.6139,-82.5225 42.6123,-82.5199 42.6113,-82.5182 42.6108,-82.5175 42.6095,-82.5154 42.5628,-82.5505 42.5505,-82.5386 42.5262,-82.515 42.5358,-82.4634 42.5188,-82.3954 42.3937,-82.3695 42.2795,-82.4137 42.2849,-82.5491 42.2679,-82.7164 42.3254,-82.9097 42.3377,-82.9189 42.3422,-82.9211 42.3485,-82.9249 42.3512,-82.9263 42.3586,-82.9303 42.3828,-82.8374 42.5447,-82.6736 42.5632,-82.6314 42.5592,-82.6191 42.5555,-82.6079 42.5527,-82.5993</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>002310</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3536020</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3537048</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3537064</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538004</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>fr-CA</language>
+        <category>Met</category>
+        <event>grains</event>
+        <responseType>Monitor</responseType>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>squall</value>
+        </eventCode>
+        <effective>2023-08-10T21:39:06-00:00</effective>
+        <expires>2023-08-11T00:59:32-00:00</expires>
+        <senderName>Environnement Canada</senderName>
+        <headline>veille de grains en vigueur en vigueur</headline>
+        <description>
+Les conditions sont favorables à la formation de grains accompagnés de rafales soufflant jusqu’à 40 noeuds.
+
+Les orages dispersés par moments cesseront en début de soirée. De la petite grêle pourrait accompagner certains de ces orages.
+
+###
+
+Veuillez continuer à surveiller les alertes et les prévisions émises par Environnement Canada. Pour plus d’information, écoutez la station radio de la Garde côtière canadienne ou Radiométéo.
+</description>
+        <instruction>
+Les navigateurs doivent être prêts à composer avec de possibles grains. Les bateaux vulnérables devraient se mettre à l’abri s’ils naviguent.
+</instruction>
+        <web>http://meteo.gc.ca/marine/index_f.html</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20230810213532812/WH_13_73_CWTO/SQV/140423893192319053202308100503_WH_13_73_CWTO/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:8094 M:44603 C:54089</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>veille de grains</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>secteur canadien des Grands Lacs et le secteur ontarien du fleuve Saint-Laurent</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WH_13_73_CWTO</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>active</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Newly_Active_Areas</valueName>
+            <value/>
+        </parameter>
+        <area>
+            <areaDesc>lac Sainte-Claire</areaDesc>
+            <polygon>42.5527,-82.5993 42.5558,-82.5959 42.574,-82.5753 42.5798,-82.5688 42.5947,-82.5519 42.6139,-82.5225 42.6123,-82.5199 42.6113,-82.5182 42.6108,-82.5175 42.6095,-82.5154 42.5628,-82.5505 42.5505,-82.5386 42.5262,-82.515 42.5358,-82.4634 42.5188,-82.3954 42.3937,-82.3695 42.2795,-82.4137 42.2849,-82.5491 42.2679,-82.7164 42.3254,-82.9097 42.3377,-82.9189 42.3422,-82.9211 42.3485,-82.9249 42.3512,-82.9263 42.3586,-82.9303 42.3828,-82.8374 42.5447,-82.6736 42.5632,-82.6314 42.5592,-82.6191 42.5555,-82.6079 42.5527,-82.5993</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>002310</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3536020</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3537048</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3537064</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538004</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>en-CA</language>
+        <category>Met</category>
+        <event>squall</event>
+        <responseType>AllClear</responseType>
+        <urgency>Past</urgency>
+        <severity>Minor</severity>
+        <certainty>Observed</certainty>
+        <audience>general public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>squall</value>
+        </eventCode>
+        <effective>2023-08-10T21:39:06-00:00</effective>
+        <expires>2023-08-10T22:35:32-00:00</expires>
+        <senderName>Environment Canada</senderName>
+        <headline>squall watch ended</headline>
+        <description>
+###
+</description>
+        <instruction/>
+        <web>http://weather.gc.ca/marine/index_e.html</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20230810213532812/WH_13_73_CWTO/SQV/140423893192319053202308100503_WH_13_73_CWTO/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:8094 M:44603 C:54089</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>squall watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>Canadian portion of the Great Lakes and the Ontario portion of the St. Lawrence River</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WH_13_73_CWTO</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <area>
+            <areaDesc>Southern Lake Huron</areaDesc>
+            <polygon>43.0052,-82.3823 43.0113,-82.4137 43.5911,-82.1227 44.7096,-82.3729 44.7041,-81.2898 44.7035,-81.273 44.7061,-81.2189 44.5146,-81.2158 44.3362,-81.4092 44.0654,-81.6693 43.8003,-81.6417 43.4006,-81.6524 43.2738,-81.7126 43.1746,-81.9831 43.0488,-82.1082 43.0182,-82.2082 43.0052,-82.3823</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>002412</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538035</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538056</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3540010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3540025</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3540028</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3540063</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541024</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541045</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541055</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541057</value>
+            </geocode>
+        </area>
+    </info>
+    <info>
+        <language>fr-CA</language>
+        <category>Met</category>
+        <event>grains</event>
+        <responseType>AllClear</responseType>
+        <urgency>Past</urgency>
+        <severity>Minor</severity>
+        <certainty>Observed</certainty>
+        <audience>grand public</audience>
+        <eventCode>
+            <valueName>profile:CAP-CP:Event:0.4</valueName>
+            <value>squall</value>
+        </eventCode>
+        <effective>2023-08-10T21:39:06-00:00</effective>
+        <expires>2023-08-10T22:35:32-00:00</expires>
+        <senderName>Environnement Canada</senderName>
+        <headline>veille de grains annulée</headline>
+        <description>
+###
+</description>
+        <instruction/>
+        <web>http://meteo.gc.ca/marine/index_f.html</web>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Type</valueName>
+            <value>watch</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Broadcast_Intrusive</valueName>
+            <value>no</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:1.0:Broadcast_Immediately</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Parent_URI</valueName>
+            <value>msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20230810213532812/WH_13_73_CWTO/SQV/140423893192319053202308100503_WH_13_73_CWTO/actual/en_proper_complete_c-fr_proper_complete_c/NinJo</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:CAP_count</valueName>
+            <value>A:8094 M:44603 C:54089</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Name</valueName>
+            <value>veille de grains</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.0:Alert_Coverage</valueName>
+            <value>secteur canadien des Grands Lacs et le secteur ontarien du fleuve Saint-Laurent</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Designation_Code</valueName>
+            <value>WH_13_73_CWTO</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:SOREM:2.0:WirelessImmediate</valueName>
+            <value>No</value>
+        </parameter>
+        <parameter>
+            <valueName>layer:EC-MSC-SMC:1.1:Alert_Location_Status</valueName>
+            <value>ended</value>
+        </parameter>
+        <area>
+            <areaDesc>lac Huron Sud</areaDesc>
+            <polygon>43.0052,-82.3823 43.0113,-82.4137 43.5911,-82.1227 44.7096,-82.3729 44.7041,-81.2898 44.7035,-81.273 44.7061,-81.2189 44.5146,-81.2158 44.3362,-81.4092 44.0654,-81.6693 43.8003,-81.6417 43.4006,-81.6524 43.2738,-81.7126 43.1746,-81.9831 43.0488,-82.1082 43.0182,-82.2082 43.0052,-82.3823</polygon>
+            <geocode>
+                <valueName>layer:EC-MSC-SMC:1.0:CLC</valueName>
+                <value>002412</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538030</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538035</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538040</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3538056</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3540010</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3540025</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3540028</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3540063</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541015</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541024</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541045</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541055</value>
+            </geocode>
+            <geocode>
+                <valueName>profile:CAP-CP:Location:0.3</valueName>
+                <value>3541057</value>
+            </geocode>
+        </area>
+    </info>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="Environment Canada">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>jKk7n8d48tes2RMoV47u37TFuPfUx1Gfz3w/V8f8aLM=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>JUWt2ire+amhPBV9HYEkNeAs/sVKCmXvkif7Z29lkhGuflSqvCSofxiaqv/ctXDa
+Q8RXZP/+8oayrhQv2VQjebTzg4Dw0P1b5qVQbyHa1E7n8RyYNWtlj4RGv27QWMxW
+sMj83+YeK3UgGusQW/WizU6EH8oygkAaOsh9VhKtk2y3SKrwfKk+Hf8XHXogysxY
+R48bpviCyNb1M5lqP5MOHQpV12+OByOIKFryGU1mzHOV4UDT8yK7HLgIHCnbufZa
+qEESzF1abD1qwJXBGk1zztZtva2Q7oQzFtUNcA+rAs3ENITZDmN4ArS2RMKCIr8q
+DF9SdfwxS9HINJdF74zMmA==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIIHQDCCBiigAwIBAgIQauIRkpOPcGViI+LoZHWDFzANBgkqhkiG9w0BAQsFADCB
+ujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT
+H1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy
+MDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG
+A1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y
+MzA0MjcxNDEyNDVaFw0yNDA1MDcxNDEyNDVaMGwxCzAJBgNVBAYTAkNBMQ8wDQYD
+VQQIEwZRdWViZWMxETAPBgNVBAcTCEdhdGluZWF1MR8wHQYDVQQKExZTaGFyZWQg
+U2VydmljZXMgQ2FuYWRhMRgwFgYDVQQDDA8qLndlYXRoZXIuZ2MuY2EwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDOSYFvWlJgQgD5twPwuMqUXQB8Raj6
+enUh60KlOqYi2Moja8qBMhANS848XjHd+OlTNKv5J9YT6OoxTqcRe60e3nWYF6/u
+Plu+O4KWOO8x6jWbttEn5G7j7V35yaWXqP0LObVrQLDMYX3D4xsm+MJK7eyGJz8k
+AJAJYONS/+dp7/0jlrzlTjyuT4Uk50zVDvTGxiYpgjPfuXG9Bke5q8Cju4EEgAfW
+1I2+67Is7ae2fTjhvPH+w+L4iujk1ucmkrZqd2Norr8eeLebvDiSNxV4FkdzUZKQ
+TTycHQb1u/79WGgRKCH+nPYTzW/l/muRz59V0LKTQOlFmq8H45fmSYWZAgMBAAGj
+ggONMIIDiTAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRlq9u/A7i58xA3Eb4DmYis
+FzYwKTAfBgNVHSMEGDAWgBSConB03bxTP8971PfNf6dgxgpMvzBoBggrBgEFBQcB
+AQRcMFowIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVudHJ1c3QubmV0MDMGCCsG
+AQUFBzAChidodHRwOi8vYWlhLmVudHJ1c3QubmV0L2wxay1jaGFpbjI1Ni5jZXIw
+MwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5lbnRydXN0Lm5ldC9sZXZlbDFr
+LmNybDCBnQYDVR0RBIGVMIGSgg8qLndlYXRoZXIuZ2MuY2GCDXdlYXRoZXIuZ2Mu
+Y2GCC21ldGVvLmdjLmNhgg0qLm1ldGVvLmdjLmNhghUqLmFscGhhLndlYXRoZXIu
+Z2MuY2GCEyouYWxwaGEubWV0ZW8uZ2MuY2GCFCouYmV0YS53ZWF0aGVyLmdjLmNh
+ghIqLmJldGEubWV0ZW8uZ2MuY2EwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQG
+CCsGAQUFBwMBBggrBgEFBQcDAjBMBgNVHSAERTBDMDcGCmCGSAGG+mwKAQUwKTAn
+BggrBgEFBQcCARYbaHR0cHM6Ly93d3cuZW50cnVzdC5uZXQvcnBhMAgGBmeBDAEC
+AjCCAXsGCisGAQQB1nkCBAIEggFrBIIBZwFlAHUAc9meiRtMlnigIH1HneayxhzQ
+UV5xGSqMa4AQesF3crUAAAGHww80IQAABAMARjBEAiAkpowR7bbTYLp4v/tw0Fav
+HHP8mm2i6/ecg03yasJkkgIga1hmg5g/Gq97+HOCDwjsy77aS8+PirSarIO6/X1H
+EfkAdQA7U3d1Pi25gE6LMFsG/kA7Z9hPw/THvQANLXJv4frUFwAAAYfDDzQcAAAE
+AwBGMEQCIBKVCiUTam6W9Y+5TiuhpsxVVx2TYVz9SebYPuB4XyHUAiB4Y9ZXnkOt
+rJJAaw4im3kY7OWZG40xPUL1ygK8trUsIAB1AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8
+vOzew1FIWUZxH7WbAAABh8MPNF0AAAQDAEYwRAIgYbZkNJlz8a4d35p4+wLg0h5P
+WtFyyBEqy06IoSV7UWICIH65mirJoLVsZFK7kXW3IJF4+xlgATBcr/n2ImBLSWug
+MA0GCSqGSIb3DQEBCwUAA4IBAQCcp2dfEDsCzJHpMsTF1hlEyYPTgmfrSbgegWT3
+76r0r7XGY7qIym53HE6Pk3Q7BgsegpV+pS8UMWx1m9x0ZcUQX11gMBlNLv0WCSBe
+4/9BOaGc2deYrXsRAmmFJwqvgegcBSQhg4zZSoSSVqJPhaJ1WYWqDbJW+doY15xy
+JPm7UbZqCAbzm3/c36N9j/Zu6h+LA9rhltfwYoWCyqlBtJCRrs7K7KEP+dLtsoby
++AhyY+3dK2IB4G7v5Qbxa88WKV9EsXXMpvl0v/kXSDjIHJwRPyOf1OKU9x2Mc3Mx
+KEgzSJ0GUUW0RqqCVWZ14TBoxUq1jJw4m12zSF+PYFpSH6g5</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></alert>
